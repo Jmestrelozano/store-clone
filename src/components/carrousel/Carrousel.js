@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-export const Carrousel = ({ pages = 1, setCurrentPage }) => {
+export const Carrousel = ({ pages = 4, setCurrentPage }) => {
   //Set number of pages
   const numberOfPages = [];
   for (let i = 1; i <= pages; i++) {
@@ -15,27 +15,28 @@ export const Carrousel = ({ pages = 1, setCurrentPage }) => {
   }, [currentButton]);
 
   return (
-
     <div className="button-slide">
-    <button  className={`${currentButton === 1 ? "disabled" : ""}`}
+      <button
+        className={`${currentButton === 1 ? "disabled" : ""}`}
         onClick={(e) => {
           e.preventDefault();
           setCurrentButton((prev) => (prev <= 1 ? prev : prev - 1));
-        }}>
-      <i className="wi wi-direction-left"></i>
-    </button>
-    <button className={`${
+        }}
+      >
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button
+        className={`${
           currentButton === numberOfPages.length ? "disabled" : ""
         }`}
         onClick={() =>
           setCurrentButton((prev) =>
             prev >= numberOfPages.length ? prev : prev + 1
           )
-        }>
-      <i className="wi wi-direction-right"></i>
-    </button>
-  </div>
-  
-  
+        }
+      >
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
   );
 };
