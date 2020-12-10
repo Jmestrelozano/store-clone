@@ -17,7 +17,7 @@ export const Carrousel = ({ pages = 4, setCurrentPage }) => {
   return (
     <div className="button-slide">
       <button
-        className={`${currentButton === 1 ? "disabled" : ""}`}
+        className={`${currentButton === 1 ? "disabled" : ""} button-left`}
         onClick={(e) => {
           e.preventDefault();
           setCurrentButton((prev) => (prev <= 1 ? prev : prev - 1));
@@ -28,7 +28,7 @@ export const Carrousel = ({ pages = 4, setCurrentPage }) => {
       <button
         className={`${
           currentButton === numberOfPages.length ? "disabled" : ""
-        }`}
+        }button-right`}
         onClick={() =>
           setCurrentButton((prev) =>
             prev >= numberOfPages.length ? prev : prev + 1

@@ -35,7 +35,7 @@ export const Section_productos = ({ TitleEncabezado }) => {
         </div>
         <div className="line-productos"></div>
         <Carrousel pages={pages} setCurrentPage={setCurrentPage} />
-        <div className="column-grid-four">
+        <div className="column-grid-four" style={{columnGap:"1rem"}}>
           <CardContainer
             data={currentPosts}
             styleBody="card-body"
