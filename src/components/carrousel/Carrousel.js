@@ -23,7 +23,7 @@ export const Carrousel = ({ pages = 4, setCurrentPage }) => {
           setCurrentButton((prev) => (prev <= 1 ? prev : prev - 1));
         }}
       >
-        <i class="fas fa-chevron-left"></i>
+        <i className="fas fa-chevron-left"></i>
       </button>
       <button
         className={`${
@@ -35,7 +35,7 @@ export const Carrousel = ({ pages = 4, setCurrentPage }) => {
           )
         }
       >
-        <i class="fas fa-chevron-right"></i>
+        <i className="fas fa-chevron-right"></i>
       </button>
     </div>
   );

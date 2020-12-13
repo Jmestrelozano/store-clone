@@ -1,4 +1,5 @@
 import React from "react";
+import { RedesSociales } from "./contentRedesSociales/redesSociales";
 import { Dropdown } from "./dropdown/dropdown";
 
 export const Footer = () => {
@@ -9,7 +10,7 @@ export const Footer = () => {
           <div className="logo">
             <div className="logo-img">
               <img
-                src="https://demo.createx.studio/cartzilla/img/footer-logo-light.png"
+                src="https://demo2.madrasthemes.com/cartzilla/grocery/wp-content/uploads/sites/5/2020/03/footer-logo-light.png"
                 alt="NOT FOUND"
               />
             </div>
@@ -34,43 +35,26 @@ export const Footer = () => {
                 <li>Producto #3</li>
               </ul>
             </div>
-            <div className="redes-compañia">
-              <h2>Follow us</h2>
-
-              <ul className="column-grid-four iconos">
-                <li>
-                  <i class="fab fa-twitter"></i>
-                </li>
-                <li>
-                  <i class="fab fa-facebook-f"></i>
-                </li>
-                <li>
-                  <i class="fab fa-instagram"></i>
-                </li>
-                <li>
-                  <i class="fab fa-youtube"></i>
-                </li>
-              </ul>
-            </div>
+           <RedesSociales />
           </div>
           <div className="stay-informacion">
             <h2>Stay informed</h2>
 
             <div>
-              <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text">
-                    <i class="far fa-envelope"></i>
+              <div className="input-group mb-3">
+                <div className="input-group-prepend">
+                  <span className="input-group-text">
+                    <i className="far fa-envelope"></i>
                   </span>
                 </div>
                 <input
                   type="text"
-                  class="form-control caja-texto"
+                  className="form-control caja-texto"
                   aria-label="Amount (to the nearest dollar)"
                   placeholder="Your email"
                 />
-                <div class="input-group-prepend">
-                  <button class="button" type="button" id="button-addon1">
+                <div className="input-group-prepend">
+                  <button className="button" type="button" id="button-addon1">
                     Suscribe*
                   </button>
                 </div>
@@ -83,12 +67,12 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div class="subFooter px-lg-3 py-3">
-        <div class="d-sm-flex justify-content-between align-items-center mx-auto px-3">
-          <div class="font-size-xs text-light opacity-50 text-center text-sm-left py-3">
+      <div className="subFooter px-lg-3 py-3">
+        <div className="d-sm-flex justify-content-between align-items-center mx-auto px-3">
+          <div className="font-size-xs text-light opacity-50 text-center text-sm-left py-3">
             © All rights reserved. Made by{" "}
             <a
-              class="text-light"
+              className="text-light"
               href="https://createx.studio/"
               target="_blank"
               rel="noopener"
@@ -96,10 +80,10 @@ export const Footer = () => {
               Create Jorge mestre lozano
             </a>
           </div>
-          <div class="py-3">
+          <div className="py-3">
             <ul style={{textAlign:"end"}}>
               <li style={{listStyle:"none"}}>
-                <img style={{width:"50%"}} src="https://demo.createx.studio/cartzilla/img/cards-alt.png" />
+                <img style={{width:"50%"}} src="https://demo2.madrasthemes.com/cartzilla/grocery/wp-content/uploads/sites/5/2020/03/cards-alt.png" />
               </li>
               
             </ul>

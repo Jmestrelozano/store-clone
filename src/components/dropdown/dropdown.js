@@ -45,134 +45,134 @@ export const Dropdown = () => {
   return (
     <div>
       <nav className="content-dropdown">
-        <div onClick={handleDropBtn} class="drop-btn">
+        <div onClick={handleDropBtn} className="drop-btn">
           <img src="https://demo.createx.studio/cartzilla/img/flags/en.png" alt="" />
          <span className="etiqueta-name">Eng / $</span> 
-          <span class="fas fa-caret-down span"></span>
+          <span className="fas fa-caret-down span"></span>
         </div>
-        <div class="tooltip"></div>
-        <div class="wrapper">
-          <ul class="menu-bar">
+        <div className="tooltip"></div>
+        <div className="wrapper">
+          <ul className="menu-bar">
             <li>
               <a href="#">
-                <div class="icon">
-                  <span class="fas fa-home"></span>
+                <div className="icon">
+                  <span className="fas fa-home"></span>
                 </div>
                 Home{" "}
               </a>
             </li>
-            <li onClick={handleSetting_item} class="setting-item">
+            <li onClick={handleSetting_item} className="setting-item">
               <a href="#">
-                <div class="icon">
-                  <span class="fas fa-cog"></span>
+                <div className="icon">
+                  <span className="fas fa-cog"></span>
                 </div>
-                Settings & privacy <i class="fas fa-angle-right"></i>
+                Settings & privacy <i className="fas fa-angle-right"></i>
               </a>
             </li>
-            <li onClick={handleHelp_item} class="help-item">
+            <li onClick={handleHelp_item} className="help-item">
               <a href="#">
-                <div class="icon">
-                  <span class="fas fa-question-circle"></span>
+                <div className="icon">
+                  <span className="fas fa-question-circle"></span>
                 </div>
-                Help & support <i class="fas fa-angle-right"></i>
+                Help & support <i className="fas fa-angle-right"></i>
               </a>
             </li>
             <li>
               <a href="#">
-                <div class="icon">
-                  <span class="fas fa-user"></span>
+                <div className="icon">
+                  <span className="fas fa-user"></span>
                 </div>
                 About us{" "}
               </a>
             </li>
             <li>
               <a href="#">
-                <div class="icon">
-                  <span class="fas fa-comment-alt"></span>
+                <div className="icon">
+                  <span className="fas fa-comment-alt"></span>
                 </div>
                 Feedback{" "}
               </a>
             </li>
           </ul>
 
-          <ul class="setting-drop">
-            <li onClick={handleSetting_btn} class="arrow back-setting-btn">
-              <span class="fas fa-arrow-left"></span>Settings & privacy
+          <ul className="setting-drop">
+            <li onClick={handleSetting_btn} className="arrow back-setting-btn">
+              <span className="fas fa-arrow-left"></span>Settings & privacy
             </li>
             <li>
               <a href="#">
-                <div class="icon">
-                  <span class="fas fa-user"></span>
+                <div className="icon">
+                  <span className="fas fa-user"></span>
                 </div>
                 Personal info{" "}
               </a>
             </li>
             <li>
               <a href="#">
-                <div class="icon">
-                  <span class="fas fa-lock"></span>
+                <div className="icon">
+                  <span className="fas fa-lock"></span>
                 </div>
                 Password{" "}
               </a>
             </li>
             <li>
               <a href="#">
-                <div class="icon">
-                  <span class="fas fa-address-book"></span>
+                <div className="icon">
+                  <span className="fas fa-address-book"></span>
                 </div>
                 Activity log{" "}
               </a>
             </li>
             <li>
               <a href="#">
-                <div class="icon">
-                  <span class="fas fa-globe-asia"></span>
+                <div className="icon">
+                  <span className="fas fa-globe-asia"></span>
                 </div>
                 Languages{" "}
               </a>
             </li>
             <li>
               <a href="#">
-                <div class="icon">
-                  <span class="fas fa-sign-out-alt"></span>
+                <div className="icon">
+                  <span className="fas fa-sign-out-alt"></span>
                 </div>
                 Log out{" "}
               </a>
             </li>
           </ul>
 
-          <ul class="help-drop">
-            <li onClick={handleHelp_btn} class="arrow back-help-btn">
-              <span class="fas fa-arrow-left"></span>Help & support
+          <ul className="help-drop">
+            <li onClick={handleHelp_btn} className="arrow back-help-btn">
+              <span className="fas fa-arrow-left"></span>Help & support
             </li>
             <li>
               <a href="#">
-                <div class="icon">
-                  <span class="fas fa-question-circle"></span>
+                <div className="icon">
+                  <span className="fas fa-question-circle"></span>
                 </div>
                 Help centre{" "}
               </a>
             </li>
             <li>
               <a href="#">
-                <div class="icon">
-                  <span class="fas fa-envelope"></span>
+                <div className="icon">
+                  <span className="fas fa-envelope"></span>
                 </div>
                 Support Inbox{" "}
               </a>
             </li>
             <li>
               <a href="#">
-                <div class="icon">
-                  <span class="fas fa-comment-alt"></span>
+                <div className="icon">
+                  <span className="fas fa-comment-alt"></span>
                 </div>
                 Send feedback{" "}
               </a>
             </li>
             <li>
               <a href="#">
-                <div class="icon">
-                  <span class="fas fa-exclamation-circle"></span>
+                <div className="icon">
+                  <span className="fas fa-exclamation-circle"></span>
                 </div>
                 Report problem{" "}
               </a>

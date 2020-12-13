@@ -14,7 +14,7 @@ export const Section_entrada = () => {
             <div className="card-contenido">
               <div className="">
                 <div className="card_endtrada-icono">
-                  <img src="https://demo.createx.studio/cartzilla/img/grocery/steps/01.png" alt="NOT FOUND"/>
+                  <img src="https://demo2.madrasthemes.com/cartzilla/grocery/wp-content/uploads/sites/5/2020/04/01.png" alt="NOT FOUND"/>
                 </div>
                 <div className="card_entrada-texto">
                   <p>You order your favorite products online</p>
@@ -28,7 +28,7 @@ export const Section_entrada = () => {
             </div>
             <div className="card-contenido">
               <div className="card_endtrada-icono">
-                <img src="https://demo.createx.studio/cartzilla/img/grocery/steps/02.png" alt="NOT FOUND" />
+                <img src="https://demo2.madrasthemes.com/cartzilla/grocery/wp-content/uploads/sites/5/2020/04/02.png" alt="NOT FOUND" />
               </div>
               <div className="card_entrada-texto">
                 <p>A personal assistant collects the products from your list</p>
@@ -41,7 +41,7 @@ export const Section_entrada = () => {
             </div>
             <div className="card-contenido">
               <div className="card_endtrada-icono">
-              <img src="https://demo.createx.studio/cartzilla/img/grocery/steps/03.png" alt="NOT FOUND" />
+              <img src="https://demo2.madrasthemes.com/cartzilla/grocery/wp-content/uploads/sites/5/2020/04/03.png" alt="NOT FOUND" />
               </div>
               <div className="card_entrada-texto">
                 <p>We deliver to the door at a time convenient for you</p>

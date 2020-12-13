@@ -6,7 +6,7 @@ export const Navbar = () => {
       <div className="container-fluid">
         <img
           style={{ height: "2rem" }}
-          src="https://demo.createx.studio/cartzilla/img/logo-dark.png"
+          src="https://demo2.madrasthemes.com/cartzilla/grocery/wp-content/uploads/sites/5/2020/03/logo-dark.png"
           alt=""
         />
         <button

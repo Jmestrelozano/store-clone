@@ -1,7 +1,6 @@
 import React from "react";
 
 export const CardContainer = ({ data, styleHeader, styleBody }) => {
-  //    console.log(data)
 
   return (
     <>
@@ -13,23 +12,23 @@ export const CardContainer = ({ data, styleHeader, styleBody }) => {
                 <div className="card-productos">
                   <div className={styleHeader}>
                     <img
-                      src={`https://demo.createx.studio/cartzilla/${dato.image}`}
+                      src={dato.image}
                       alt="NOT FOUND"
                     />
                   </div>
                   <div className={styleBody}>
                     <div className="title-productos">
-                      <h6>Fruits and Vegetables</h6>
+                      <h6>{dato.title}</h6>
                     </div>
                     <div className="descripcion-productos">
                       <p>
-                        Coconout, indonesia <br />
-                        (Piece)
+                        {dato.description}<br />
+                   
                       </p>
                     </div>
                     <div className="precio-productos">
                       <p>
-                        $1.99 <span>$2.99</span>
+                       {dato.precio} <span>$2.99</span>
                       </p>
                     </div>
                   </div>

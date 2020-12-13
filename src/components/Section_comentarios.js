@@ -9,11 +9,11 @@ export const Section_comentarios = () => {
 
           <div className="card container-comment" style={{border:"none"}}>
             <div className="estrellas-icon">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <i className="fas fa-star"></i>
+            <i className="fas fa-star"></i>
+            <i className="fas fa-star"></i>
+            <i className="fas fa-star"></i>
+            <i className="fas fa-star"></i>
             </div>
             <div className="comentarios-texto">
               <p>
@@ -25,7 +25,7 @@ export const Section_comentarios = () => {
             <div className="footer-comentarios">
               <div className="profile">
                 <img
-                  src="https://demo.createx.studio/cartzilla/img/testimonials/03.jpg"
+                  src="https://demo2.madrasthemes.com/cartzilla/grocery/wp-content/uploads/sites/5/2020/04/03-1.jpg"
                   alt="NOT FOUND"
                 />
               </div>

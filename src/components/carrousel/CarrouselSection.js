@@ -52,7 +52,7 @@ export const CarrouselSection = () => {
 
               <div className="carrousel-img">
                 <img
-                  src="https://demo.createx.studio/cartzilla/img/grocery/slider/slide01.jpg"
+                  src="https://demo2.madrasthemes.com/cartzilla/grocery/wp-content/uploads/sites/5/2020/05/slide01.jpg"
                   alt="Imagen no cargada"
                 />
               </div>

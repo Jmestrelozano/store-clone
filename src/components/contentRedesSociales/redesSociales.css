@@ -1,0 +1,22 @@
+.redes-compañia .iconos {
+    width: 12rem;
+  }
+  .redes-compañia h2{
+    font-size: 1.2rem;
+    color: var(--primary-lightWith);
+    font-weight: bold;
+  }
+  .redes-compañia .iconos li {
+    list-style: none;
+    background-color: var(--primary-darkGrey);
+    border-radius: 0.3rem;
+    width: 2.5rem;
+    padding: 0.5rem;
+  }
+  
+  .redes-compañia .iconos li i {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
