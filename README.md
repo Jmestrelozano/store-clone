@@ -7,7 +7,8 @@ this project is inspirate on the web [cartzilla grocery store](https://demo.crea
 - React
 - Redux
 - Formilk
-- Tailwind
+- css pure
+- boopstrap
 
 # How to start
 

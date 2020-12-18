@@ -2,19 +2,19 @@ import React, { useState, useEffect } from "react";
 import { UseFetch } from "../api/useFetch";
 import { Scrollbar } from "./scrollbar/Scrollbar";
 
-export const Sidebar_Categories = () => {
-  const [Categories, setCategories] = useState(undefined);
-  let arrayCategories = [];
+export const Sidebar_Menu = () => {
+  const [Menu, setMenu] = useState(undefined);
+  let arrayMenuCategories = [];
   useEffect(() => {
     UseFetch(
       "https://node-express-store-2020.herokuapp.com/list/categorias",
       "GET"
     ).then((result) => {
       result.Categories.forEach((element, index, valor) => {
-        if (index < 14) {
-          arrayCategories.push(element);
+        if (index >= 14) {
+          arrayMenuCategories.push(element);
           setTimeout(() => {
-            setCategories(arrayCategories);
+            setMenu(arrayMenuCategories);
           }, 0);
         }
       });
@@ -22,13 +22,13 @@ export const Sidebar_Categories = () => {
   }, []);
 
   return (
-    <div>
+    <>
       <Scrollbar>
         <div className="contenedor">
           <ul>
-            {Categories === undefined
+            {Menu === undefined
               ? console.log("cargando")
-              : Categories.map((category, index) => {
+              : Menu.map((category, index) => {
                   return (
                     <li key={index}>
                       <div
@@ -51,7 +51,6 @@ export const Sidebar_Categories = () => {
           </ul>
         </div>
       </Scrollbar>
-      
-    </div>
+    </>
   );
 };

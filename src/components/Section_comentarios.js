@@ -7,7 +7,7 @@ export const Section_comentarios = () => {
         <div className=" container-section-comentarios">
           <h2>Customer reviews</h2>
 
-          <div className="card container-comment" style={{border:"none"}}>
+          <div className="card container-comment">
             <div className="estrellas-icon">
             <i className="fas fa-star"></i>
             <i className="fas fa-star"></i>
@@ -22,7 +22,7 @@ export const Section_comentarios = () => {
                 aliqua porro quisquam est.
               </p>
             </div>
-            <div className="footer-comentarios">
+            <div className="footer-comentarios column-grid-two mt-5">
               <div className="profile">
                 <img
                   src="https://demo2.madrasthemes.com/cartzilla/grocery/wp-content/uploads/sites/5/2020/04/03-1.jpg"
@@ -30,7 +30,7 @@ export const Section_comentarios = () => {
                 />
               </div>
               <div className="info">
-                <p>Mark vaidlsos</p>
+                <span>Mark vaidlsos</span>
                 <p>Jan 22, 2020</p>
               </div>
             </div>

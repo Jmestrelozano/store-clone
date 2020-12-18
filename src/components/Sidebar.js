@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
+import { RedesSociales } from "./contentRedesSociales/redesSociales";
 import { Sidebar_Categories } from "./Sidebar_Categories";
+import { Sidebar_Menu } from "./Sidebar_Menu";
 
 export const Sidebar = () => {
   const [IdTab, setIdTab] = useState(["Tab1"]);
@@ -64,12 +66,38 @@ export const Sidebar = () => {
 
         <div className="sidebar-tabs">
           <div id="Tab1" className="Tabs" style={{ display: "block" }}>
-          <Sidebar_Categories />
+            <Sidebar_Categories />
           </div>
 
           <div id="Tab2" className="Tabs" style={{ display: "none" }}>
-            <h2>titulo2</h2>
-            <p>texto.</p>
+            <Sidebar_Menu />
+          </div>
+
+          <div className="p-4 ">
+            <div className="support">
+              <div className="icon-support">
+                <i className="fas fa-headphones"></i>
+              </div>
+              <div className="descripcion-support">
+                <span>Support</span>
+                <p>+1 (00) 33 169 7720</p>
+              </div>
+            </div>
+            <div className="support mb-4">
+              <div className="icon-support">
+                <i className="far fa-envelope"></i>
+              </div>
+              <div className="descripcion-support">
+                <span>Email</span>
+                <p>customer@example.com</p>
+              </div>
+            </div>
+            <RedesSociales
+              colorTitulo="#4b566b"
+              background="white"
+              border="1px solid #e3e9ef"
+              colorIcono="#4b566b"
+            />
           </div>
         </div>
       </div>

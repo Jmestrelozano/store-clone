@@ -1,4 +1,5 @@
 import React from "react";
+import { Modal } from "./modal/Modal";
 
 export const Navbar = () => {
   return (
@@ -48,13 +49,17 @@ export const Navbar = () => {
             <div className="navbar-icon-heart">
               <span className="material-icons">favorite_border</span>
             </div>
-
+            <a href="#openModal-about">
             <div className="navbar-account">
+           
               <span className="material-icons">person_outline</span>
               <p>
                 Hello, Sing in <br /> <span>My Account</span>{" "}
               </p>
+             
             </div>
+            </a>
+            <Modal />
             <div className="navbar-addCart">
               <div className="add-cart">
                 <span className="material-icons">add_shopping_cart</span>

@@ -1,0 +1,86 @@
+.modalDialog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+  opacity: 0;
+  -webkit-transition: opacity 100ms ease-in;
+  -moz-transition: opacity 100ms ease-in;
+  transition: opacity 100ms ease-in;
+  pointer-events: none;
+}
+.modalDialog:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modalDialog-header {
+  
+  padding-bottom: 0.5rem;
+
+  content: "";
+  border-bottom: 1px solid var( --secondary-ligthGrey);
+}
+
+.modalDialog-header >div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem .3rem 1rem;
+}
+
+.modalDialog-header h5{
+    font-weight: bold
+}
+.contenedor-modalDialog {
+  max-width: 500px;
+  width: 90%;
+  position: relative;
+  margin: 10% auto;
+
+  border-radius: 3px;
+  background: #fff;
+}
+
+.modalDialog-form {
+  padding: 20px;
+}
+.close {
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 1;
+  color: black;
+  line-height: 25px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.modalDialog-button{
+    width: 29rem;
+    border-radius: .3rem;
+    padding: .7rem 3rem .7rem 3rem;
+    background-color: var(--primary-lightPink);
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.modalDialog-button:focus{
+    outline: none;
+border: none;
+}
+.modalDialog-footer{
+  display: flex;
+  justify-content: space-between;
+}
+.modalDialog-VerifyPasswordIcon input{
+  border-right: none;
+}
+.modalDialog-VerifyPasswordIcon span{
+  background-color: transparent;
+  border-left: none;
+}

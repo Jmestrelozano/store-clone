@@ -35,7 +35,7 @@ export const Footer = () => {
                 <li>Producto #3</li>
               </ul>
             </div>
-           <RedesSociales />
+            <RedesSociales />
           </div>
           <div className="stay-informacion">
             <h2>Stay informed</h2>
@@ -81,11 +81,13 @@ export const Footer = () => {
             </a>
           </div>
           <div className="py-3">
-            <ul style={{textAlign:"end"}}>
-              <li style={{listStyle:"none"}}>
-                <img style={{width:"50%"}} src="https://demo2.madrasthemes.com/cartzilla/grocery/wp-content/uploads/sites/5/2020/03/cards-alt.png" />
+            <ul style={{ textAlign: "end" }}>
+              <li style={{ listStyle: "none" }}>
+                <img
+                  style={{ width: "50%" }}
+                  src="https://demo2.madrasthemes.com/cartzilla/grocery/wp-content/uploads/sites/5/2020/03/cards-alt.png"
+                />
               </li>
-              
             </ul>
           </div>
         </div>
